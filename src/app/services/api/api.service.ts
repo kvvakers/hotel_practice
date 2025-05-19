@@ -6,7 +6,7 @@ import {HttpClient, HttpHeaders} from "@angular/common/http";
 })
 export class ApiService {
   protected endpoint: string = "";
-  protected url: string = `http://localhost:8080/api/`;
+  protected url: string = `https://hotel-latest.onrender.com/api/`;
   protected headers: HttpHeaders | undefined = undefined;
   constructor(protected httpClient: HttpClient) {
     this.headers = this.getHeaders();
