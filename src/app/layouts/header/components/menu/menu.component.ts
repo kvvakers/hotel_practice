@@ -20,8 +20,6 @@ export class MenuComponent {
   @Input({ required: true }) isAuthorized!: boolean;
   menuItems:IMenuItem[] = [
     {name: "Hotels", url: "/home"},
-    {name: "Countries", url: "/countries"},
-    {name: "About", url: "/about"},
     {name: "Account", url: "/account"},
   ];
   buttonItems:IButtonItem[] = [
